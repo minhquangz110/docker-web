@@ -1,13 +1,12 @@
 version: "3.8"
 services:
   mdsfonebackend:
-    image: vuminhkhoa97/mdsfonebackend:latest
+    image: zonaji2/demo-be:latest
     restart: always
     ports:
       - 8081
-    environment: 
-      - db=mysql
+
 networks:
   default:
     external:
-      name: mdsfone
+      name: demo
