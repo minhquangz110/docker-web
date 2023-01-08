@@ -1,12 +1,13 @@
-version: "3.8"
-services:
-  webfonebackend:
-    image: zonaji2/demo-be:latest
-    restart: always
-    ports:
-      - 8081
+version: '3.8'
 
-networks:
-  default:
-    external:
-      name: demo
+services:
+  api:
+    container_name: demo-be
+    image: zonaji2/demo-be
+    build: .
+    ports:
+      - 3001:3001
+# networks:
+#   default:
+#     external:
+#       name: demo
