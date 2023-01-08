@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  mdsfonebackend:
+  webfonebackend:
     image: zonaji2/demo-be:latest
     restart: always
     ports:

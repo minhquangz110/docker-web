@@ -1,10 +1,10 @@
 version: "3.8"
 services:
-  mdsfonefrontend:
+  webfrontend:
     image:  zonaji2/demo-ant:latest
     restart: always
     ports:
-      - 80
+      - 80:3000
 networks:
   default:
     external:
