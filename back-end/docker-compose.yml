@@ -6,7 +6,7 @@ services:
     image: zonaji2/demo-be
     build: .
     ports:
-      - 80:3001
+      - 443:3001
 # networks:
 #   default:
 #     external:
