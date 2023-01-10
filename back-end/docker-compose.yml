@@ -1,13 +1,13 @@
 version: '3.8'
 
 services:
-  api:
+  demoapi:
     container_name: demo-be
     image: zonaji2/demo-be
     build: .
     ports:
       - 3001:3001
-# networks:
-#   default:
-#     external:
-#       name: demo
+networks:
+  default:
+    external:
+      name: demo
