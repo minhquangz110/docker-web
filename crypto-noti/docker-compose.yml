@@ -6,6 +6,5 @@ services:
     ports:
       - 3003:3000
 networks:
-  default:
-    external:
+ external:
       name: demo

@@ -8,6 +8,5 @@ services:
         restart: always
        
 networks:
-  default:
-    external:
+ external:
       name: demo

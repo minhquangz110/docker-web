@@ -6,6 +6,5 @@ services:
     ports:
       - 3002:80
 networks:
-  default:
-    external:
+ external:
       name: demo
