@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  binance-api:
+    image: zonaji2/noti-bot:latest
+    restart: always
+    ports:
+      - 3004:3004
+   
+networks:
+  default:
+     external:
+      name: demo
